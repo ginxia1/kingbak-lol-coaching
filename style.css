@@ -504,3 +504,11 @@ footer{border-top:1px solid var(--line);padding:40px 0;color:var(--text-dim);fon
 .sched-img{margin-top:26px;text-align:center}
 .sched-img img{max-width:520px;width:100%;border-radius:12px;border:1px solid var(--line);cursor:zoom-in}
 .sched-img p{color:var(--text-dim);font-size:.82rem;margin-top:10px}
+/* 성장 대시보드 링크 (성과 섹션) */
+.livelink{
+  display:inline-block;margin-top:18px;padding:12px 24px;border-radius:99px;
+  border:1px solid var(--teal);color:var(--teal);font-weight:800;font-size:.95rem;
+  text-decoration:none;transition:background .18s,color .18s,transform .18s;
+}
+.livelink:hover{background:var(--teal);color:#04140f;transform:translateY(-2px)}
+.livenote{color:var(--text-dim);font-size:.82rem;margin-top:10px}
